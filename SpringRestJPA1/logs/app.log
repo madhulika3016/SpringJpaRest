@@ -1,0 +1,24 @@
+2021-06-19 13:10:28,882 INFO com.SpringRestJpa1Application [main] Starting SpringRestJpa1Application using Java 11.0.1 on LAPTOP-DVHQL6MH with PID 9420 (D:\SpringBootDemo\SpringRestJPA1\bin\main started by Madhu in D:\SpringBootDemo\SpringRestJPA1)
+2021-06-19 13:10:28,888 INFO com.SpringRestJpa1Application [main] No active profile set, falling back to default profiles: default
+2021-06-19 13:10:31,836 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 13:10:32,175 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 330 ms. Found 1 JPA repository interfaces.
+2021-06-19 13:10:33,655 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-06-19 13:10:33,669 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-19 13:10:33,670 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-19 13:10:33,670 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 13:10:33,773 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-19 13:10:33,773 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4831 ms
+2021-06-19 13:10:34,156 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-19 13:10:34,213 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-19 13:10:34,331 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-19 13:10:34,419 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-19 13:10:35,296 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-19 13:10:35,334 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-19 13:10:36,611 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-19 13:10:36,618 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 13:10:37,280 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-19 13:10:38,122 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-06-19 13:10:38,152 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-19 13:10:38,393 INFO com.SpringRestJpa1Application [main] Started SpringRestJpa1Application in 9.898 seconds (JVM running for 11.705)
+2021-06-19 13:10:38,395 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state LivenessState changed to CORRECT
+2021-06-19 13:10:38,397 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [main] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
